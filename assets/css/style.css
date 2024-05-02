@@ -68,3 +68,19 @@ nav li a:hover {
 .dropdown.show .dropdown-menu {
   display: block;
 }
+
+footer {
+  background-color: #faf0e6;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+/* For navbar responsiveness */
+@media only screen and (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
